@@ -67,6 +67,41 @@
 			<key>color</key>
 			<string>#ff0000</string>
 			<key>fileName</key>
+			<string>fillon</string>
+		</dict>
+	</array>
+	<key>layers-off</key>
+	<array>
+		<dict>
+			<key>type</key>
+			<string>glyph</string>
+			<key>size</key>
+			<integer>30</integer>
+			<key>x</key>
+			<integer>11</integer>
+			<key>y</key>
+			<integer>6</integer>
+			<key>opacity</key>
+			<real>0.6</real>
+			<key>color</key>
+			<string>#000000</string>
+			<key>blur</key>
+			<real>0.75</real>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>glyph</string>
+			<key>size</key>
+			<integer>30</integer>
+			<key>x</key>
+			<integer>11</integer>
+			<key>y</key>
+			<integer>5</integer>
+			<key>opacity</key>
+			<real>1</real>
+			<key>color</key>
+			<string>#ff0000</string>
+			<key>fileName</key>
 			<string>fill</string>
 		</dict>
 	</array>
