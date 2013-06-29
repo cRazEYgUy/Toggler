@@ -1,0 +1,9 @@
+Package: ws.hbang.toggler
+Name: Toggler
+Depends: firmware (>= 5.0), com.saurik.substrate.safemode, com.chpwn.weeloader, com.a3tweaks.flipswitch
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: The inevitable NC widget for Flipswitch.
+Maintainer: HASHBANG Productions <toggler@hbang.ws>
+Author: HASHBANG Productions <toggler@hbang.ws>
+Section: Addons (Notification Center)
