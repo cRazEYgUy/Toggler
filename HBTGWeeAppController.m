@@ -23,12 +23,12 @@
 }
 
 - (void)loadPlaceholderView {
-	_view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 316.f, self.viewHeight)];
+	_view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320.f, self.viewHeight)];
 	_view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
 
 	UIImage *backgroundImage = [UIImage imageWithContentsOfFile:[_bundle pathForResource:@"WeeAppBackground" ofType:@"png"]];
 	_backgroundView = [[UIImageView alloc] initWithImage:[backgroundImage stretchableImageWithLeftCapWidth:backgroundImage.size.width / 2.f topCapHeight:backgroundImage.size.height / 2.f]];
-	_backgroundView.frame = CGRectInset(_view.frame, 2.f, 0);
+	_backgroundView.frame = CGRectInset(_view.frame, 2.f, 2.f);
 	_backgroundView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
 	[_view addSubview:_backgroundView];
 
